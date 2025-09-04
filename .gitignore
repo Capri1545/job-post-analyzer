@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# This is the crucial line that will protect your API key
+config.json
+
+# Data and model artifacts
+*.joblib
+*.csv
+*.zip
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
